@@ -2,7 +2,7 @@ abstract class animals {
 	String breed,colour,name;
 	abstract void eat();
 	void speak() {
-		System.out.println("Barking....");
+		System.out.println("Speaking....");
 	}
 }
 class dog extends animals{
